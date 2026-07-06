@@ -12,7 +12,7 @@ class MainTest {
 
     @Test
     void isPositive_shouldReturnFalse_whenCalledWithMinus2() {
-        assertFalse(Main.isPositive(2));
+        assertFalse(Main.isPositive(-2));
     }
 
     @Test
@@ -24,7 +24,7 @@ class MainTest {
         //WHEN
         int actual = Main.multiply(a, b);
         //THEN
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -36,7 +36,7 @@ class MainTest {
         //WHEN
         int actual = Main.multiply(a, b);
         //THEN
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     //Level 2 – Medium
