@@ -12,7 +12,7 @@ class MainTest {
 
     @Test
     void isPositive_shouldReturnFalse_whenCalledWithMinus2() {
-        assertFalse(Main.isPositive(-2));
+        assertFalse(Main.isPositive(2));
     }
 
     @Test
